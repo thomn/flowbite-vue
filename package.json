@@ -1,11 +1,11 @@
 {
-  "name": "flowbite-vue",
-  "version": "0.2.1",
+  "name": "@thomann/flowbite-vue",
+  "version": "0.1.6-thomn.1",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/themesberg/flowbite-vue.git"
+    "url": "git+https://github.com/thomn/flowbite-vue.git"
   },
-  "author": "themesberg",
+  "author": "Thomann.io GmbH <toolster@thomann.io>",
   "license": "MIT",
   "files": [
     "dist",
@@ -82,5 +82,8 @@
   "engines": {
     "node": ">=18.x",
     "npm": ">=10.x"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
