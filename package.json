@@ -1,6 +1,6 @@
 {
   "name": "@thomann/flowbite-vue",
-  "version": "0.2.2-thomn.1",
+  "version": "0.2.2-thomn.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thomn/flowbite-vue.git"
@@ -79,12 +79,9 @@
     "tailwind-merge": "3.3.1",
     "tailwindcss": "^4.1.14"
   },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "*"
-  },
   "engines": {
-    "node": ">=20.x",
-    "npm": ">=10.x"
+    "node": ">=24.x",
+    "npm": ">=11.x"
   },
   "publishConfig": {
     "access": "public"
